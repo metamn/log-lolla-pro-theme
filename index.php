@@ -7,8 +7,7 @@
  * Please consult the WordPress Template Hierarchy for details.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package LogLollaProTheme
+ * @package Log_Lolla_Pro_Theme
  * @since 1.0.0
  */
 
