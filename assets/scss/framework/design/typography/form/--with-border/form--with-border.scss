@@ -1,6 +1,0 @@
-@mixin form--with-border {
-	@include border(normal, all);
-	padding: $lem / 4;
-
-	width: 100%;
-}

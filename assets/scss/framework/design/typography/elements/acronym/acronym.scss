@@ -1,8 +1,0 @@
-// It's like `abbr` but not bold
-//
-@mixin acronym {
-	acronym,
-	.acronym {
-		font-variant: all-petite-caps;
-	}
-}

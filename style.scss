@@ -12,11 +12,19 @@
  Text Domain:  log-lolla-pro-theme
 */
 
-// SCSS linter used: https://medium.com/@bjankord/how-to-lint-scss-with-stylelint-dc87809a9878
+// The parent theme mixins will be directly imported into this child theme.
+// This way we will have a commonly shared code in the parent theme.
+// Here only parent theme extensions and overwrites will be added.
 
+@import '../log-lolla-theme/assets/scss/themes/white.scss';
 @import 'assets/scss/themes/white.scss';
+@import '../log-lolla-theme/assets/scss/framework/behaviour/**/*.scss';
 @import 'assets/scss/framework/behaviour/**/*.scss';
+@import '../log-lolla-theme/assets/scss/framework/design/**/*.scss';
 @import 'assets/scss/framework/design/**/*.scss';
+@import '../log-lolla-theme/assets/scss/framework/structure/**/*.scss';
 @import 'assets/scss/framework/structure/**/*.scss';
+@import '../log-lolla-theme/assets/scss/parts/**/*.scss';
 @import 'assets/scss/parts/**/*.scss';
+@import '../log-lolla-theme/assets/scss/pages/**/*.scss';
 @import 'assets/scss/pages/**/*.scss';

@@ -39,6 +39,18 @@
  * Decorations
  *
  */
+/**
+ * The default skin
+ *
+ * - black on white
+ * - minimalist and brutalist look
+ *
+ * Enabling a skin / theme is done in `style.scss`
+ * Example: `@import 'assets/scss/themes/white.scss';`
+ *
+ */
+/* No files to import found in assets//scss//framework//behaviour//**/
+/*.scss */
 @font-face {
   font-family: 'Sparks-Dotline-Medium';
   font-style: normal;
@@ -91,6 +103,10 @@
 /* - fixing big child elements breaking smaller parent's width and height in Firefox
 - http://stackoverflow.com/questions/26895349/how-can-i-get-ff-33-x-flexbox-behavior-in-ff-34-x
 */
+/* No files to import found in assets//scss//framework//design//**/
+/*.scss */
+/* No files to import found in assets//scss//framework//structure//**/
+/*.scss */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
      ========================================================================== */
@@ -10752,9 +10768,6 @@ html {
     html body .screen-reader-text {
       display: none; }
 
-html body.page-template-page-template-archives .content {
-  max-width: none; }
-
 html body.home .header .header-image {
   height: auto; }
   html body.home .header .header-image figure {
@@ -10764,5 +10777,8 @@ html body.home .header .header-image {
 
 html body.home .footer .footer-navigation ul li.current-menu-item {
   display: none; }
+
+html body.page-template-page-template-archives .content {
+  max-width: none; }
 
 /*# sourceMappingURL=style.css.map */
