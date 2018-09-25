@@ -36,3 +36,13 @@ if ( ! function_exists( 'log_lolla_pro_theme_scripts' ) ) :
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'log_lolla_pro_theme_scripts' );
+
+/**
+ * Load custom template tags for this theme.
+ */
+require get_stylesheet_directory() . '/inc/template-tags.php';
+
+/**
+ * Load functions which enhance the theme by hooking into WordPress.
+ */
+require get_stylesheet_directory() . '/inc/template-functions.php';
