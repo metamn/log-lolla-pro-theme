@@ -13,8 +13,11 @@
 */
 
 // The parent theme mixins will be directly imported into this child theme.
-// This way we will have a commonly shared code in the parent theme.
-// Here only parent theme extensions and overwrites will be added.
+// - This way we will have a commonly shared code in the parent theme.
+// - Here only parent theme extensions and overwrites will be added.
+//
+// The assets/images, fonts must be also replicated here
+// - the stylesheet generated cannot get them from a parent folder
 
 @import '../log-lolla-theme/assets/scss/themes/white.scss';
 @import 'assets/scss/themes/white.scss';
