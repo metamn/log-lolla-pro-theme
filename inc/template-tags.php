@@ -13,3 +13,4 @@
 // Include template tags.
 require get_stylesheet_directory() . '/inc/template-tags/framework-template.php';
 require get_stylesheet_directory() . '/inc/template-tags/comment-template.php';
+require get_stylesheet_directory() . '/inc/template-tags/post-format-template.php';
